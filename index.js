@@ -48,9 +48,9 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 const config = {
     XBOT: 'ᏴϴͲ ᎠO BRUXINHO', 
-    instagram: 'https://www.instagram.com/kaic_de_paula?r=nametag', 
-    nomer: 'wa.me/558298050470',
-    youtube: 'https://youtube.com/channel/UC2a7N-vZ5xrDF-0nfcaUspw', 
+    instagram: 'none', 
+    nomer: 'wa.me/5594988088531',
+    youtube: 'none', 
     whatsapp: 'Comming soon', 
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
@@ -107,7 +107,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `oiee @${num.split('@')[0]}\ seja bem vindo/a ao grupo *${mdata.subject}* comportasse para nao ganha ban`
+				teks = `oiee @${num.split('@')[0]}\ seja bem vindo/a ao grupo *${mdata.subject}* comportasse para nao ganha ban e leia as regras`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -153,7 +153,7 @@ client.on('group-participants-update', async (anu) => {
 
 			mess = {
 				wait: '❬❗❭AGUARDE  UM POUCO MANO❬❗❭',
-				success: '️❬ ✔ ❭ PRONTO SEU GAY 🖤',
+				success: '️❬ ✔ ❭ PRONTO HACKER 🖤',
 				error: {
 					stick: 'Eu falhei :( desculpa',
 					Iv: 'Desculpe, o link está inválido☹️'
@@ -163,7 +163,7 @@ client.on('group-participants-update', async (anu) => {
 					ownerG: '❬❗❭ COMANDO EXCLUSIVO PARA O PROPRIETÁRIO DO BOT.❬❗❭ ',
 					ownerB: '❬❗❭  COMANDO EXCLUSIVO PARA O PROPRIETÁRIO DO BOT.❬❗❭  ',
 					admin: ' ❬ ⚠️ ❭ COMANDO PERMITIDO SOMENTE PARA ADMS ❬ ⚠️ ❭ ',
-					Badmin: '❬❗❭O BOT PRECISA SER ADEMAR ;3 '
+					Badmin: '❬❗❭O BOT PRECISA SER ADEMIR ;3 '
 				}
 			}
 
@@ -272,7 +272,7 @@ case 'lofi':
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('5511973027044@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('5594988088531@s.whatsapp.net', options, text, {quoted: mek})
                     reply('PDP PARSA, BUG FOI REPORTADO, SE FOR MENTIRA VAI SER COBRADO🙄✌🏼')
                     break
 					case 'marcar':
@@ -290,7 +290,7 @@ case 'lofi':
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `╠} @${mem.jid.split('@')[0]}\n`
+						teks += ` @${mem.jid.split(' ')[0], ''`
 						members_id.push(mem.jid)
 					}
 					reply(teks)
@@ -645,13 +645,13 @@ case 'lofi':
 					if (mentioned.length > 1) {
 						teks = ''
 						for (let _ of mentioned) {
-							teks += `removi mermo fodassi 🏃 :\n`
+							teks += `removi mermo hehe :\n`
 							teks += `@_.split('@')[0]`
 						}
 						mentions(teks, mentioned, true)
 						client.groupRemove(from, mentioned)
 					} else {
-						mentions(`removi mermo @${mentioned[0].split('@')[0]} fodassi🏃`, mentioned, true)
+						mentions(`removi mermo @${mentioned[0].split('@')[0]} hehe`, mentioned, true)
 						client.groupRemove(from, mentioned)
 					}
 					break
@@ -749,6 +749,26 @@ case 'lofi':
 					} else {
 						reply(' *encontrei isso* ')
 					}
+					if (text == 'Regrasbr'){
+conn.sendMessage(id, '彡ঔৣ༒𝕳𝖆𝖈𝖐𝖊𝖗𝖘 𝖘𝖔𝖇𝖊𝖗𝖆𝖓𝖔 ঔৣ꧂༒\r\n\r\♔ ༒ Ř€ǤŘΔŞ ༒ ♔\r\n\r\nPROÍBIDO :\r\n\r\n𝕻𝖆𝖑𝖆𝖛𝖗õ𝖊𝖘 𝖊 𝕭𝖆𝖓 ⚔ \r\n\r\n𝖕𝖗𝖔𝖎𝖇𝖎𝖉𝖔 𝖒𝖊𝖓𝖔𝖗 𝖉𝖊 15 𝖆𝖓𝖔𝖘\r\n\r\n𝖕𝖊𝖗𝖒𝖎𝖙𝖎𝖉𝖔 𝖘ó 𝖛í𝖉𝖊𝖔𝖘 𝖙𝖊𝖈𝖓𝖔𝖑ó𝖌𝖎𝖈𝖔𝖘\r\n\r\n𝖕𝖗𝖔𝖎𝖇𝖎𝖉𝖔 𝖕𝖔𝖗𝖓𝖔𝖌𝖗𝖆𝖋𝖎𝖆. ♰\r\n\r\n𝖕𝖗𝖔𝖎𝖇𝖎𝖉𝖔 𝖕𝖛 𝖘𝖊𝖒 𝖆𝖚𝖙𝖔𝖗𝖎𝖟𝖆çã𝖔 ঔৣ꧂𝖕𝖗𝖔𝖎𝖇𝖎𝖉𝖔\r\n\r\n𝖉𝖎𝖛𝖚𝖑𝖌𝖆çã𝖔 𝖉𝖊 𝖑𝖎𝖓𝖐𝖘\r\n\r\nঔৣ꧂𝖕𝖗𝖔í𝖇𝖎𝖉𝖔 𝖋𝖑𝖔𝖔𝖉𝖆 𝖔 𝖌𝖗𝖚𝖕𝖔 ༒\r\n\r\n𝖕𝖗𝖔𝖎𝖇𝖎𝖉𝖔 𝖆𝖕𝖔𝖑𝖔𝖌𝖎𝖆 𝖆𝖘 𝖉𝖗𝖔𝖌𝖆𝖘\r\n\r\n𝖕𝖗𝖔𝖎𝖇𝖎𝖉𝖔 𝖋𝖎𝖌𝖚𝖗𝖎𝖓𝖍𝖆 𝖕𝖔𝖗𝖓𝖔𝖌𝖗á𝖋𝖎𝖈𝖆\r\n\r\n𝖕𝖗𝖔𝖎𝖇𝖎𝖉𝖔 𝖖𝖚𝖆𝖑𝖖𝖚𝖊𝖗 𝖙𝖎𝖕𝖔 𝖉𝖊 𝖛𝖊𝖓𝖉𝖆 音楽' ,MessageType.text);
+}
+					//notificar
+if (text.includes('!notif')){
+const value = text.replace(text.split(' ')[0], '')
+const group = await conn.groupMetadata(id)
+const member = group['participants']
+const ids = []
+member.map( async adm => {
+    ids.push(adm.id.replace('c.us', 's.whatsapp.net'))
+})
+const options = {
+    text: value,
+    contextInfo: { mentionedJid: ids },
+    quoted: m
+}
+conn.sendMessage(id, options, MessageType.text)
+}	
+
 					break
 				default:
 			if (isGroup && isSimi && budy != undefined) {
